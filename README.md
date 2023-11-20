@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @karthisellappan
-- 👀 I’m interested in learning new technologies, Sports and Games.
+- 👀 I’m interested in learning new technologies 
 - 🌱 I’m currently learning Azure components and certificates
 - 💞️ I’m looking to collaborate on Azure Copilot
 - 📫 How to reach me karthi.sellappan@conduent.com
