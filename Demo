@@ -1,0 +1,25 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- checkout: self
+
+# Step 1: Print message
+- script: echo "Hello, Azure DevOps Pipeline!"
+  displayName: 'Print Hello Message'
+
+# Step 2: Show system info
+- script: |
+    echo "Build ID: $(Build.BuildId)"
+    echo "Branch: $(Build.SourceBranch)"
+    echo "Agent OS: $(Agent.OS)"
+  displayName: 'Show Build Info'
+
+# Step 3: Simple file creation
+- script: |
+    echo "This is a demo file" > demo.txt
+    cat demo.txt
+  displayName: 'Create and Read File'
